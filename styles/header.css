@@ -58,9 +58,8 @@
 .aside-wrapper-home {
 width: 1360px;
 height: 370px;
-border: 1px solid purple;
 position: relative;
-top: 420px;
+top: 422px;
 display: flex;
 align-items: end;
 justify-content: right;
@@ -69,14 +68,46 @@ justify-content: right;
 .square {
 width: 625px;
 height: 370px;
+display: flex;
+padding: 20px;
+flex-direction: column;
 background:#F8F200;
 clip-path: polygon(7% 0, 100% 0, 100% 20%, 100% 85%, 92% 100%, 20% 100%, 0 100%, 0 11%);
 }
 
 .wrapper-social {
-    width: 100%;
     height: 150px;
     display: flex;
     justify-content: space-between;
-    border: 1px solid green;
+}
+
+.square-title {
+    width: 455px;
+    height: 205px;
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    font-family: Archangelsk;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.square-btn {
+    width: 270px;
+    height: 80px;
+    background: black;
+    color: #F8F200;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.square-text-position {
+position: relative;
+top: 15px;
 }
